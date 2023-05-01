@@ -16,7 +16,7 @@
 
 - Upload the data from the CSV file to your MySQL database using the LOAD DATA INFILE command.
 
-- Once the data is loaded into the database, you can use an API to retrieve the details of a specific medicine item. For example, you could use the following API endpoint: http://localhost:8888/medicine?name={itemName}, where {itemName} is the name of the medicine item you want to retrieve.
+- Once the data is loaded into the database, you can use an API to retrieve the details of a specific medicine item. For example, you could use the following API endpoint: http://localhost:8888/medicine?name=itemName, where itemName is the name of the medicine item you want to retrieve.
 
 - Replace <itemName> in the API endpoint with the name of the medicine item you want to retrieve, and then hit the API using a web browser or a tool like cURL.
 
